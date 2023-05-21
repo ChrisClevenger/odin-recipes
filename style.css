@@ -6,13 +6,19 @@
     font-family: Helvetica, sans-serif;
 }
 
-.navigation li a {
-    display: inline-block; 
-    max-width: 150px; 
-    margin: 5px;
-    text-align: center; 
-    text-decoration: none; 
-    margin: 5px auto;  
+.navigation {
+    border: 1px solid red;
+    width: 600px; 
+    display: flex; 
+}
+
+.navigation ul, li, a {
+    text-decoration: none;
+    border: 1px solid red;
+    background-color: purple;
+    list-style-type: none; 
+    color: whitesmoke;
+    justify-content: flex-start;
 }
 
 h1 {
