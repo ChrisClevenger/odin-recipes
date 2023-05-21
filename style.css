@@ -1,29 +1,46 @@
 * {
     background-color: whitesmoke;
-    width: 800px; 
+    max-width: 800px; 
     margin: auto;
     line-height: 1.68rem;
     font-family: Helvetica, sans-serif;
 }
 
+.navigation li a {
+    display: inline-block; 
+    max-width: 150px; 
+    margin: 5px;
+    text-align: center; 
+    text-decoration: none; 
+    margin: 5px auto;  
+}
+
 h1 {
     background-color: goldenrod;
+    box-sizing: border-box; 
     color: #111827;
     font-size: 36px; 
     font-weight: 900; 
-    padding-bottom: 10px;
+    margin: 20px auto; 
+    max-width: 600px; 
+    height: 100px; 
+    text-align: center;
+    padding: 20px; 
 }
 
 h2 {
     color:#111827; 
     font-size: 28px;
     font-weight: 600;
+    padding: 10px 0px; 
 }
 
-ul, 
-ul li {
-    background-color: #111827; 
-    color: whitesmoke;
+.ingredients, .ingredients li {
+    font-size: 18px; 
+margin: 0 auto; 
+background-color: #111827;
+color: whitesmoke;
+max-width: 600px; 
 }
  
 ol,
@@ -33,9 +50,12 @@ ol li {
 }
 
 button {
-    padding-top: 10px;
+    margin: 20px;
     background-color: crimson;
     color: whitesmoke;
+    font-size: 18px; 
+    max-width: 300px auto; 
+
 }
 
 .mainimg {
